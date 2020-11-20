@@ -1,0 +1,383 @@
+.mutilrule{
+    background-color: #ffffff;
+    color: #333;
+    .tip{
+        padding: 10px;
+        background-color: #f8f8f8;
+        color: #333;
+        text-align: left;
+    }
+    .item-b{
+        font-size: 14px;
+        color: #333333;
+        line-height: 30px;
+    }
+    .font-w{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .aRight{
+        text-align: right;
+    }
+    .alLeft{
+        text-align: left;
+        margin-left: 10px;
+    }
+    .container{
+        width: 100%;
+        padding: 20px 0 10px;
+        .mart24{
+            margin-bottom: 24px;
+        }
+        .rulebox{
+            background-color: #fff;
+            padding: 10px;
+            border: 1px solid #e5e5e5;
+            .rc-sku-group {
+                position: relative;
+            }
+            .rc-sku-group .group-title {
+                position: relative;
+                padding: 7px 10px;
+                margin: 0;
+                background-color: #f8f8f8;
+                font-size: 14px;
+                line-height: 16px;
+                font-weight: 400;
+                .ant-btn:focus{
+                    color: rgba(0, 0, 0, 0.65);
+                    background: #fff;
+                    border-color: #d9d9d9;
+                }
+            }
+            .rc-sku-group .group-title__label {
+                display: inline-block;
+                min-width: 56px;
+            }
+            .rc-sku-group .group-title .zent-select {
+                width: 94px;
+                box-sizing: border-box;
+                border: 1px solid #bbb;
+                border-radius: 2px;
+                display: inline-block;
+                min-height: 30px;
+                max-height: 76px;
+                outline: none;
+                padding: 5px 10px;
+                transition: border-color .25s;
+                background-color: #fff;
+                position: relative;
+            }
+            .rc-sku-group .group-title .zent-select input {
+                width: 94px;
+            }
+            .rc-sku-group .group-title .sku-image-wrapper {
+                margin: 10px 62px 5px;
+            }
+            .zent-checkbox-wrap[data-zv="8.5.2"] {
+                display: inline-block;
+                cursor: pointer;
+                font-size: 0;
+                padding: 0;
+                margin: 0 15px 0 0;
+                vertical-align: middle;
+            }
+            .zent-checkbox[data-zv="8.5.2"] {
+                position: relative;
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                white-space: nowrap;
+                outline: none;
+                vertical-align: middle;
+                font-size: 14px;
+                line-height: 1;
+                margin: 0;
+                padding: 0;
+            }
+            .zent-checkbox-inner[data-zv="8.5.2"] {
+                background-color: #fff;
+                background-color: var(--theme-stroke-9,#fff);
+                position: relative;
+                top: 0;
+                left: 0;
+                display: inline-block;
+                width: 16px;
+                height: 16px;
+                border-radius: 2px;
+                border: 1px solid #c8c9cc;
+                border-color: var(--theme-stroke-4,#c8c9cc);
+                box-sizing: border-box;
+                transition: all .3s;
+            }
+            .zent-checkbox[data-zv="8.5.2"]>input {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                top: 0;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                opacity: 0;
+                cursor: pointer;
+            }
+            .zent-checkbox-label[data-zv="8.5.2"] {
+                font-size: 14px;
+                line-height: 20px;
+                font-weight: 400;
+                margin-left: 8px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .zent-checkbox-checked[data-zv="8.5.2"]>.zent-checkbox>.zent-checkbox-inner {
+                border-color: #155bd4;
+                border-color: var(--theme-primary-4,#155bd4);
+                background-color: #155bd4;
+                background-color: var(--theme-primary-4,#155bd4);
+            }
+            .rc-sku-group .group-remove {
+                display: block;
+                position: absolute;
+                top: 12px;
+                right: 10px;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+                width: 18px;
+                height: 18px;
+                font-size: 14px;
+                line-height: 16px;
+                background: hsla(0,0%,60%,.6);
+                border-radius: 10px;
+                text-indent: 0;
+            }
+            .rc-sku-group .group-container {
+                padding: 10px 10px 0;
+                display: -ms-flexbox;
+                display: flex;
+            }
+            .rc-sku-group .sku-list__label {
+                color: #333;
+                min-width: 56px;
+                padding-top: 10px;
+            }
+            .rc-sku-group .sku-list {
+                -ms-flex: 1;
+                flex: 1;
+                margin-left: 5px;
+            }
+            .sku-list .rc-sku-item {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 5px 0;
+                text-align: center;
+            }
+            .goods-edit .zent-select:not(:last-child) {
+                margin-right: 5px;
+            }
+            .sku-list .rc-sku-item .zent-select {
+                width: auto;
+            }
+            .sku-list .rc-sku-item .zent-select input {
+                width: 152px;
+            }
+            .rc-sku-group .rc-sku-pop, .rc-sku-group .sku-add {
+                display: inline-block;
+                vertical-align: top;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .rc-sku-group .sku-add {
+                margin: 9px 0 0 5px;
+                text-decoration: none;
+            }
+            .sku-list .rc-sku-item .item-remove.small {
+                top: -6px;
+                right: -4px;
+                width: 18px;
+                height: 18px;
+                font-size: 14px;
+                line-height: 16px;
+                border-radius: 9px;
+            }
+            .sku-list .rc-sku-item .item-remove {
+                position: absolute;
+                z-index: 2;
+                top: -9px;
+                right: -9px;
+                width: 20px;
+                height: 20px;
+                font-size: 16px;
+                line-height: 18px;
+                color: #fff;
+                text-align: center;
+                cursor: pointer;
+                background: hsla(0,0%,60%,.6);
+                border-radius: 10px;
+            }
+            .goods-edit-link{
+                color: #155bd4;
+            }
+            .goods-edit-link:focus, .goods-edit-link:hover {
+                color: #38f;
+                text-decoration: none;
+            }
+            .rc-sku-group .sku-group-cont {
+                padding: 0 10px 0 70px;
+                margin-bottom: 15px;
+                margin-top: 2px;
+            }
+            .zent-popover-wrapper .ant-select{
+                padding-right: 8px;
+                box-sizing: border-box;
+            }
+            .rc-sku-item .upload-img-wrap {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 2px;
+                width: 104px;
+                height: 104px;
+                background: #fff;
+                border-radius: 4px;
+                border: 1px solid #dcdcdc;
+            }
+            .rc-sku-item .upload-img-wrap-error {
+                border: 1px solid #df4545;
+            }
+            .rc-sku-item .upload-img-wrap .arrow {
+                position: absolute;
+                width: 0;
+                height: 0;
+                top: -5px;
+                left: 44%;
+                border-style: solid;
+                border-color: transparent;
+                border-left: 5px solid transparent;
+                border-right: 5px solid transparent;
+                border-bottom: 5px solid #000;
+            }
+            .rc-sku-item .upload-img-wrap .arrow:after {
+                position: absolute;
+                display: block;
+                width: 0;
+                height: 0;
+                top: 0;
+                margin-left: -10px;
+                border-color: transparent transparent #fff;
+                border-style: solid;
+                border-width: 0 10px 10px;
+                content: "";
+            }
+            .rc-sku-item .upload-img-wrap .rc-upload {
+                height: 84px;
+            }
+            .rc-sku-item .upload-img-wrap .add-image, .rc-sku-item .upload-img-wrap .rc-upload-trigger {
+                display: inline-block;
+                width: 100%;
+                height: 84px;
+                line-height: 84px;
+                text-align: center;
+                background: #fff;
+                font-size: 30px;
+                color: #e5e5e5;
+                cursor: pointer;
+                border: 0;
+                text-decoration: none;
+            }
+            .rc-upload-tips {
+                line-height: 14px;
+                font-size: 12px;
+                margin-top: 6px;
+                margin-bottom: 0;
+                color: #666;
+                position: absolute;
+            }
+            .rc-sku-item .img-required-error {
+                position: absolute;
+                top: 120px;
+                color: #df4545;
+                left: 0;
+                text-align: left;
+            }
+            .rc-sku-group .sku-group-cont .help-block {
+                font-size: 14px;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            .rc-sku-item .upload-img-wrap .arrow-error {
+                border-bottom: 5px solid #df4545;
+            }
+            .rc-sku-item.active {
+                margin-bottom: 160px;
+            }
+            .rc-sku-item {
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                margin: 5px 0;
+                text-align: center;
+            }
+            .ant-upload-select-picture-card i {
+                color: #999;
+                font-size: 32px;
+              }
+              
+              .ant-upload-select-picture-card .ant-upload-text {
+                margin-top: 8px;
+                color: #666;
+              }
+              .ant-upload.ant-upload-select-picture-card{
+                  width: 104px;
+                  height: 104px;
+                  border: none;
+                  margin: initial;
+                  margin-top: 8px;
+                  position: relative;
+              }
+              .ant-upload-list-picture-card .ant-upload-list-item {
+                  margin: 0 0;
+                  padding: 2px;
+                  border-radius: 4px;
+                  border: 1px solid #dcdcdc;
+              }
+              .ant-upload-list-picture-card .ant-upload-list-item-info::before {
+                left: 0;
+            }
+            .ant-upload-list-picture-card-container{
+                margin: initial;
+                margin-top: 8px;
+            }
+            .clearfix{
+                width: 100%;
+                position:absolute;top:38px;left:0;
+            }
+            .ant-upload.ant-upload-select-picture-card > .ant-upload{
+                padding: 0;
+            }
+            .mutilrule .container .rulebox .ant-upload.ant-upload-select-picture-card{
+                position: absolute;
+                top: 8px;
+                left: 0;
+            }
+            .ant-upload-list-picture-card-container{
+                position: absolute;
+                top: 8px;
+                left: 0;
+                margin-top: 0;
+            }
+            .goods-edit-link {
+                display: inline-block;
+                color: #155bd4;
+                cursor: pointer;
+            }
+            .zent-btn{
+                margin-right: 15px;
+            }
+        }
+    }
+}

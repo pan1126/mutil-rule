@@ -1,0 +1,34 @@
+.sku-sortable-group {
+    padding: 5px 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #333;
+    .sku-sortable-group__title {
+        line-height: 16px;
+    }
+    .sku-sortable-group__content {
+        padding: 5px 0;
+    }
+    .sku-sortable-group__content .sku-sortable-items, .sku-sortable-list {
+        margin-left: -10px;
+    }
+    .sku-sortable-items .item {
+        position: relative;
+        display: inline-block;
+        box-sizing: border-box;
+        padding: 0 10px;
+        height: 30px;
+        background: #ececec;
+        margin: 10px 0 0 10px;
+        cursor: grab;
+        i {
+            display: inline-block;
+            height: 30px;
+            min-width: 32px;
+            text-align: center;
+            line-height: 30px;
+            white-space: nowrap;
+            word-wrap: break-word;
+        }
+    }
+}
